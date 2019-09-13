@@ -1,0 +1,13 @@
+{
+  "label": {
+    "ok": "okay",
+    "cancel": "cancelar"
+  },
+  "error": {
+    "fatal": "fatal",
+    "critical": "crítica"
+  },
+  "text": {
+    "intro": "Bienvenido al universo"
+  }
+}
