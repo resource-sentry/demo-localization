@@ -8,7 +8,7 @@ Install dependencies:
 
 ```shell
 yarn add --dev @resource-sentry/core
-yarn add --dev @resource-sentry/reader-localization @resource-sentry/writer-es2015
+yarn add --dev @resource-sentry/reader-localization
 yarn add --dev @resource-sentry/writer-es2015
 ```
 
