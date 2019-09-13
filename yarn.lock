@@ -35,19 +35,30 @@
     eventemitter3 "3.0.1"
     minimist "^1.2.0"
 
-"@resource-sentry/reader-localization@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@resource-sentry/reader-localization/-/reader-localization-1.0.0.tgz#c3112fef4861f32838040c761e351ba571047fd0"
-  integrity sha512-pu/jOZhECEbK7g7zgMw30Xk4b3c0mJh/4dLuyJ9twKEEwJ5N0rezmaO5jJnfSlqENKTyaBzFCtYcQuksp18hng==
+"@resource-sentry/reader-localization@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@resource-sentry/reader-localization/-/reader-localization-1.1.0.tgz#199f8d7e7493c5760f83995df75578d46b024bbd"
+  integrity sha512-5UphXhsyr4WMGQiuKJDLXK+7pmaEZGtvn1OqqZ8EV8k5ZaqlE9P5+HhtWF486PChVbxkaoB8yvt9BcbTJ3laOA==
   dependencies:
-    "@resource-sentry/utils" "^1.1.0"
+    "@resource-sentry/utils" "^1.1.1"
     bluebird "^3.5.5"
     fast-glob "^3.0.4"
 
-"@resource-sentry/utils@^1.0.0", "@resource-sentry/utils@^1.1.0":
+"@resource-sentry/utils@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@resource-sentry/utils/-/utils-1.1.0.tgz#c6c8dd074218a1d451db0c872f746a47d3d337f1"
   integrity sha512-eNl2vgKVzfuhNiXaH7WlZYEzUc9U/ZhbKuFZbzayY9DYQqi36nYuhZuQsf/W/Vm5IDA7th0Lybh+Csu0hAKq8A==
+  dependencies:
+    chalk "^2.4.1"
+    eventemitter3 "^3.1.0"
+    export-files "^2.1.1"
+    pad "^2.1.0"
+    winston "^3.0.0-rc5"
+
+"@resource-sentry/utils@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@resource-sentry/utils/-/utils-1.1.1.tgz#5ee410dbe26df74254d4eb60bddcd7bbf0a1d264"
+  integrity sha512-zxarqjKLXVokGAcgsfhAZAD1I4Eizalg+D4sAjhAoZw7mrdm5rUzobhXV91i9dQUfsLDBdEd3ZW5anmXufdzXg==
   dependencies:
     chalk "^2.4.1"
     eventemitter3 "^3.1.0"
