@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resource Sentry: Multiple Languages</title>
+</head>
+<body>
+<div class="output"></div>
+<script type="module">
+    import {getText, Text} from './src/model/rs.js';
+
+    let outputElement = document.getElementsByClassName('output')[0];
+
+    function addText(value) {
+        let element = document.createElement('p');
+        element.textContent = value;
+        outputElement.appendChild(element);
+    }
+
+    addText(getText(Text.TEXT_INTRO, navigator.language));
+    addText(getText(Text.TEXT_INTRO, 'es'));
+    addText(getText(Text.TEXT_INTRO, 'de'));
+
+</script>
+</body>
+</html>
