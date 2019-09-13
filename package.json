@@ -1,0 +1,33 @@
+{
+  "name": "demo-localization",
+  "version": "1.0.0",
+  "description": "Demo project to show a potential use of Resource Sentry for the localization.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resource-sentry/demo-localization.git"
+  },
+  "keywords": [
+    "demo",
+    "resource-sentry",
+    "resources",
+    "locale",
+    "localization",
+    "i18n",
+    "data"
+  ],
+  "author": "Nicolas Siver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/resource-sentry/demo-localization/issues"
+  },
+  "homepage": "https://github.com/resource-sentry/demo-localization#readme",
+  "devDependencies": {
+    "@resource-sentry/core": "^1.1.0",
+    "@resource-sentry/reader-localization": "^1.0.0",
+    "@resource-sentry/writer-es2015": "^1.3.0"
+  }
+}
